@@ -1,0 +1,128 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    color: #010127;
+}
+
+/* Contact Page Specific Wrapper */
+#contact-wrapper {
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+.contact-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Menu Styles */
+#contact-menu-wrapper {
+    background-color: #2C3E50;
+    overflow: hidden;
+    height: 52px;
+    margin-bottom: 2em;
+}
+
+#contact-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#contact-menu li {
+    display: inline-block;
+}
+
+#contact-menu a {
+    display: block;
+    padding: 0px 20px;
+    line-height: 52px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#contact-menu a:hover, #contact-menu .contact-current {
+    background: #3498DB;
+    color: #FFFFFF;
+}
+
+/* Logo Section */
+#contact-logo h1 {
+    color: #2C3E50;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+#contact-logo p {
+    color: #7F8C8D;
+    text-align: center;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+/* Contact Page Content Section */
+#contact-page {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-entry h2 {
+    color: #2C3E50;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.contact-entry p {
+    margin: 10px 0;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.contact-entry a {
+    color: #3498DB;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-entry a:hover {
+    color: #2980B9;
+    text-decoration: underline;
+}
+
+/* Placeholder Image */
+.contact-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #E1E1E1;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+#contact-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    font-size: 0.9em;
+}
+
+#contact-footer a {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+#contact-footer a:hover {
+    text-decoration: underline;
+}
