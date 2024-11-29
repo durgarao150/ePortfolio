@@ -7,6 +7,13 @@ body {
     font-size: 14px;
     color: #010127;
 }
+.spaced-list li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+.spaced-list li:last-child {
+    margin-bottom: 0; /* Optional: Remove margin after the last item */
+}
 
 /* Video Page Specific Wrapper */
 #video-wrapper {

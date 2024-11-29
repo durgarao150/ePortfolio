@@ -137,3 +137,10 @@ body {
 #git-demo-footer a:hover {
     text-decoration: underline;
 }
+.spaced-list li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+.spaced-list li:last-child {
+    margin-bottom: 0; /* Optional: Remove margin after the last item */
+}
