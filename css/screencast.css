@@ -12,10 +12,13 @@ body {
 #git-demo-wrapper {
     overflow: hidden;
     background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .git-demo-container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -112,12 +115,18 @@ body {
 
 /* Footer Styles */
 #git-demo-footer {
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px 0;
+	margin-top: auto;
     background-color: #2C3E50;
     color: #FFFFFF;
     font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+#git-demo-footer p {
+	margin: 0;
 }
 
 #git-demo-footer a {
