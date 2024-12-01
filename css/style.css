@@ -150,14 +150,14 @@ a:hover {
 /* Footer */
 
 #footer {
-	margin-top: auto;
-    background-color: #2C3E50;
-    color: #FFFFFF;
-    font-size: 0.9em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60px;
+	margin-top: auto; /* Pushes footer to the bottom */
+	background-color: #2C3E50;
+	color: #FFFFFF;
+	font-size: 0.9em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
 }
 
 #footer p {
